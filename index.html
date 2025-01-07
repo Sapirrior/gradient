@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <title>Gradient Generator</title>
+</head>
+<body onload="changeGradient()">
+
+<nav>
+  <h1>Gradient Generator</h1>
+</nav><br><br><br><br><br><br><br>
+  <input type="text" id="color-1" value="#6a82fb" oninput="changeGradient()" placeholder="Color Code"><br>
+  <input type="text" id="color-2" value="#fc5c7d" oninput="changeGradient()" placeholder="Color Code"><br><br>
+  <canvas width="1024" height="1024" id="gradient"></canvas><br>
+  <button onclick="download()">save</button><br><br><br><br>
+</body>
+</html>

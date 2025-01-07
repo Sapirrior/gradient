@@ -1,0 +1,51 @@
+@font-face {
+  font-family: minecraft;
+  src: url('/assets/MinecraftRegular.otf');
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: minecraft;
+}
+
+body {
+  color: White;
+  background-color: #1B2531;
+  text-align: center;
+  align-content: center;
+}
+
+nav {
+  color: #D94167;
+  background-color: #181F27;
+  padding: 10px;
+  border-bottom: 2px solid gray;
+}
+
+input {
+  color: #D94167;
+  background-color: #1B2531;
+  border: none;
+  text-align: center;
+  width: 30vh;
+  height: 10vw;
+  font-size: 30px;
+}
+
+canvas {
+  border: 1px solid black;
+  border-radius: 30px;
+  height: 300px;
+  width: 300px;
+}
+
+button {
+  color: white;
+  background-color: #181F27;
+  border: none;
+  width: 150px;
+  height: 50px;
+  font-size: 30px;
+  border-radius: 15px;
+}
